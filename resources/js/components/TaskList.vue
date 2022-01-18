@@ -58,11 +58,6 @@ export default {
   },
 
   methods: {
-    fetchTaskList() {
-      axios.get('/').then((res) => {
-        this.list = res.data;
-      });
-    },
 
     createTask() {
       axios
